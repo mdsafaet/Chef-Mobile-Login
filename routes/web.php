@@ -12,3 +12,5 @@ Route::get('/login', function () {
 });
 
 Route::get('/env',[TokenController::class, 'index'])->name('env');
+
+Route::view('/login-fardin', 'login_from_fardin');
